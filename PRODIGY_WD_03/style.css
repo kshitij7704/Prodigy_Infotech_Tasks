@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #202030;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    background-color: #202030;
+    text-align: center;
+    color: #B0A990;
+    width: 50vw;
+    padding-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 1rem;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.container {
+    margin-top: 1vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    background-color: #ffffff;
+    color: #202030;
+}
+
+.btns {
+    margin-top: 3vmin;
+}
+
+#reset-btn, #new-game, #toggle-mode {
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    background-color: #7D7461;
+    color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 5vmin;
+}
+
+.hide {
+    display: none;
+}
+
+#toggle-mode {
+    border: none;
+    background-color: transparent;
+    padding-left: 95vw;
+    padding-bottom: 0;
+    display: inline;
+}
+
+#toggle-mode:hover {
+    cursor: pointer;
+}
+
+
+/* Day mode styles */
+.day-mode body {
+    background-color: #f0f0f0;
+}
+
+.day-mode main {
+    background-color: #f0f0f0;
+    color: #202030;
+}
+
+.day-mode .box {
+    background-color: #202030;
+    color: #ffffff;
+}
+
+.day-mode #reset-btn, .day-mode #new-game, .day-mode {
+    background-color: #444444;
+    color: #f0f0f0;
+}
+
+.day-mode #toggle-mode {
+    border: none;
+    background-color: transparent;
+    color: #202030;
+    display: inline;
+}
