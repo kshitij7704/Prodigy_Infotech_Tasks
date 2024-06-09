@@ -1,0 +1,1 @@
+This folder contains the files for a responsive landing page that changes color when being scrolled or being hovered over. This basically contains the code for a responsive navigation bar.
