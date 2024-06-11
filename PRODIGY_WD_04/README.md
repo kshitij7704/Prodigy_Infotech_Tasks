@@ -1,0 +1,1 @@
+This folder contains the files for a my personal portfolio webpage.
