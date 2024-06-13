@@ -1,0 +1,1 @@
+This is a simple web application that fetches weather data based on a user-inputted location or the user's current location using the OpenWeatherMap API. The application displays current weather conditions, temperature, humidity, and wind speed.
