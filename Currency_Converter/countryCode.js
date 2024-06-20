@@ -1,0 +1,16 @@
+const countryList = {
+    AFN: "AF",
+    AUD: "AU",
+    BDT: "BD",
+    CAD: "CA",
+    EUR: "FR",
+    GBP: "GB",
+    INR: "IN",
+    JPY: "JP",
+    MYR: "MY",
+    NPR: "NP",
+    NZD: "NZ",
+    PKR: "PK",
+    RUB: "RU",
+    USD: "US",
+  };

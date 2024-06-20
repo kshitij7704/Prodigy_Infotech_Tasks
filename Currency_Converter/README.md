@@ -1,0 +1,1 @@
+This is a simple web application that fetches conversion rate based on a user-inputted currency using a free API. The application displays conversion rate along with the converted value from one currecny to another.
