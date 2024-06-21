@@ -1,0 +1,1 @@
+This is a simple web application where you can write your HTML, CSS and JavaScript code to build a webpage and the output of the code will be display simulatneouly on the right side as you go on writing it.
