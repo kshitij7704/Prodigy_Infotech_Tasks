@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Editor</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <h1>Live Code Editor: HTML, CSS & JavaScript</h1>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5" style="color: rgb(249, 126, 26)"></i> HTML</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-css3-alt" style="color: rgb(79, 66, 224)"></i> CSS</label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-js" style="color: rgb(248, 248, 46)"></i> JavaScript</label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+
+        <div class="right">
+            <label><i class="fa-solid fa-play" style="color: rgb(26, 187, 26)"></i> Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <footer>
+        <p>Code Editor by <a href="https://kshitij7704.github.io/Kshitij_Portfolio/">Kshitij Kashyap</a>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
