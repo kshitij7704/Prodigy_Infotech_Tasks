@@ -1,0 +1,1 @@
+This repository contains the code which tires to create the UI of Amazon.in home page using HTML and CSS. This is basically a frontend project.
